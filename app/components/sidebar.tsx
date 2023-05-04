@@ -10,6 +10,7 @@ import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
+import HomeIcon from "../icons/home.svg";
 
 import Locale from "../locales";
 
@@ -21,6 +22,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  BLOG_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -151,8 +153,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
-              <IconButton icon={<GithubIcon />} shadow />
+            <a href={BLOG_URL} target="_blank">
+              <IconButton icon={<HomeIcon />} shadow />
             </a>
           </div>
         </div>

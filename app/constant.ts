@@ -1,5 +1,6 @@
-export const OWNER = "Yidadaa";
+export const OWNER = "d470969047h";
 export const REPO = "ChatGPT-Next-Web";
+export const BLOG_URL = `https://www.daihui.site`;
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
